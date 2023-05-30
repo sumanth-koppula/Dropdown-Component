@@ -1,0 +1,22 @@
+:root {
+	--button-color: #ee0b669c;
+}
+
+.dropdown {
+	width: 300px;
+	display: flex;
+	justify-content: center;
+    
+}
+
+.select {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	padding-inline: 10px;
+	user-select: none;
+	cursor: pointer;
+	background-color: var(--button-color);
+}
